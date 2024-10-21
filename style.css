@@ -44,3 +44,47 @@ header ul li{
     flex-direction: column;
     margin-top: 1000px;
 }
+@media screen and (max-width:1000px){
+    header{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url("./imagenes/negrobanner.jpg");
+        width: 100%;
+    }
+    header ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+    body{
+        background-color: crimson;
+    }
+    header ul li{
+        list-style: none;
+        margin: 10px;
+        color: rgb(89, 152, 235);
+        font-size: 34px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nuevoxd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nuevoxd p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 80px;
+    }
+    .nuevoxd img{
+        width: 470px;
+        height: auto;
+    }
+    #mine{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1000px;
+    }
+}
