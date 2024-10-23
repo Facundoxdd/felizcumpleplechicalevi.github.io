@@ -7,7 +7,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("./imagenes/negrobanner.jpg");
+    background-image: url(./imagenes/1050842_39708.gif);
     width: 100%;
 }
 header ul{
@@ -18,6 +18,7 @@ header ul{
 }
 body{
     background-color: crimson;
+    background-image: url(./imagenes/1050842_39708.gif);
 }
 header ul li{
     list-style: none;
@@ -39,20 +40,32 @@ header ul li{
     width: 470px;
     height: auto;
 }
+.header video{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+}
 #mine{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 1000px;
 }
-@media screen and (max-width:700px){
+#mine p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+@media screen and (max-width:1200px){
     header{
         list-style: none;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-image: url("./imagenes/negrobanner.jpg");
-        width: 620px;
-        height: 320px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: auto;
     }
     header ul{
         list-style: none;
@@ -62,32 +75,52 @@ header ul li{
     }
     body{
         background-color: crimson;
+        background-image: url(./imagenes/1050842_39708.gif);
     }
     header ul li{
         list-style: none;
-        margin: 10px;
         color: rgb(89, 152, 235);
         font-size: 34px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .header video{
+        display: flex;
+        align-items: center;
+        width: 180px;
+        height: auto;
     }
     .nuevoxd{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 40px;
-        margin: 10px;
     }
     .nuevoxd p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 80px;
     }
     .nuevoxd img{
-        width: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: auto;
+        width: 430px;
         height: auto;
+    }
+    .nuevoxd video{
+        display: flex;
+        align-items: center;
+        width: 580px;
+        height: auto;
+        margin: 10px;
     }
     #mine{
         display: flex;
         flex-direction: column;
-        margin-top: 1000px;
+        align-items: center;
+        align-content: center;
+    }
+    #mine p{
+        display: flex;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
     }
 }
