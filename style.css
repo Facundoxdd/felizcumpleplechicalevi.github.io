@@ -66,6 +66,7 @@ header ul li{
         align-items: center;
         width: auto;
         height: auto;
+        padding: 10px;
     }
     header ul{
         list-style: none;
@@ -86,8 +87,9 @@ header ul li{
     .header video{
         display: flex;
         align-items: center;
-        width: 580px;
+        width: 640px;
         height: auto;
+        padding: 10px;
     }
     .nuevoxd{
         display: flex;
